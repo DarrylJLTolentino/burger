@@ -24,3 +24,12 @@ function objToSql(object) {
     return arr.toString();
 }
 
+var orm = {
+    selectAll: function(table, callback) {
+        var queryString = "SELECT * FROM " + table + ";";
+        connection.query(queryString, function(err, result) {
+            if (err) throw err;
+            callback(result);
+        });
+    }
+}
