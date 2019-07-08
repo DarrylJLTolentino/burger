@@ -31,5 +31,22 @@ var orm = {
             if (err) throw err;
             callback(result);
         });
+    },
+    insertOne: function(table, column, values, callback) {
+        var queryString = "INSERT INTO " + table;
+        queryString += " (";
+        queryString += column.toString();
+        queryString += ") ";
+        queryString += "VALUES (";
+        queryString += printQuestionMarks(values.length);
+        queryString += ") ";
+
+        console.log(queryString);
+
+        connection.query(queryString, values, function(err, result) {
+            if (err) throw err;
+
+            callback(result);
+        });
     }
 }
