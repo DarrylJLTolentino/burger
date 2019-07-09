@@ -8,3 +8,8 @@ CREATE TABLE burgers(
     devoured BOOLEAN DEFAULT false,
     PRIMARY KEY (id)
 );
+
+INSERT INTO burgers (burger_name)
+VALUE ("Steak Burger"),
+("Tri Tip Burger"),
+("Double Cheeseburger"); 
