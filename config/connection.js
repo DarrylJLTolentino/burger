@@ -1,4 +1,4 @@
-mysql = require("mysql");
+mysql = require("mysql2");
 
 var connection;
 if (process.env.JAWSDB_URL){
