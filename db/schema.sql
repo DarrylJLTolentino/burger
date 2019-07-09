@@ -1,3 +1,5 @@
+CREATE DATABASE m3nmvvvvxst3nrej;
+
 USE m3nmvvvvxst3nrej;
 
 CREATE TABLE burgers(
