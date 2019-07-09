@@ -47,3 +47,8 @@ div {
     top: 45%;
     width: 30%;
 }
+
+button {
+    font-family: 'Tangerine', cursive;
+    font-size: 2vw;
+}
