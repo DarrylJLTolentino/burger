@@ -1,0 +1,49 @@
+h1 {
+    
+}
+
+h2 {
+    margin: 0;
+}
+
+body { 
+    background-image: url("../media/restaurant-to-another-world.jpg");
+    background-size: 100% auto;
+    color: white;
+    font-family: 'Tangerine', cursive;
+}
+
+#image {
+    width: 70vmin;
+    height: auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 3vw;
+}
+
+div {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#notEaten {
+    position: absolute;
+    left: 5%;
+    width: 30%;
+}
+
+#eaten {
+    position: absolute;
+    right: 5%;
+    width: 30%;
+}
+
+#addBurgerForm {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45%;
+    width: 30%;
+}
